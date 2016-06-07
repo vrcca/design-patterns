@@ -1,8 +1,8 @@
 package com.github.vrcca.designpatterns.view;
 
-import com.github.vrcca.designpatterns.DisplayElement;
-import com.github.vrcca.designpatterns.Observer;
-import com.github.vrcca.designpatterns.Subject;
+import com.github.vrcca.designpatterns.model.interfaces.Observer;
+import com.github.vrcca.designpatterns.model.interfaces.Subject;
+import com.github.vrcca.designpatterns.view.interfaces.DisplayElement;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float temperature;

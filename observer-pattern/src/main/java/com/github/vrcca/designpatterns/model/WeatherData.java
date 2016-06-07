@@ -1,5 +1,9 @@
-package com.github.vrcca.designpatterns;
+package com.github.vrcca.designpatterns.model;
 
+import com.github.vrcca.designpatterns.model.interfaces.Observer;
+import com.github.vrcca.designpatterns.model.interfaces.Subject;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class WeatherData implements Subject {
@@ -8,6 +12,10 @@ public class WeatherData implements Subject {
     private float temperature;
     private float humidity;
     private float pressure;
+
+    public WeatherData() {
+        observers = new ArrayList<>();
+    }
 
     @Override
     public void registerObserver(Observer observer) {
