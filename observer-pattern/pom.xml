@@ -7,7 +7,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>observer-patterns</artifactId>
+    <artifactId>observer-pattern</artifactId>
     <packaging>jar</packaging>
 
     <name>design-patterns</name>
